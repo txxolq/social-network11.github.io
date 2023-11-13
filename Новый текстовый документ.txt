@@ -1,0 +1,130 @@
+#sl_bl{
+    height: 450px;
+    position: relative;
+    left: -5vw;
+    top: 63vw;
+    width: 500px;
+}
+#sl_bl.wrapper{
+    max-width: 60em;
+    margin: 6em auto;
+    position: relative;
+    width: 700px;
+    height: 450px;
+}
+#sl_bl input{
+    display: none;
+}
+#sl_bl.inner{
+    width: 500%;
+    position: relative;
+    line-height: 0;
+}
+#sl_bl article{
+    width: 700px;
+    float: left;
+    position: relative;
+}
+#sl_bl article img{
+    width: 700px;
+    height: 450px;
+}
+#sl_bl.slider-prev-next-control{
+    height: 50px;
+    position: absolute;
+    top: 50vw;
+    width: 100%;
+    transform: translateY(-50%);
+}
+#sl_bl.slider-prev-next-control label{
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    opacity: .7;
+}
+#sl_bl.slider-prev-next-control label:hover{
+    opacity: 1;
+}
+#sl_bl .slider-dot-control{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.slide4 .slider-dot-control label{
+    cursor: pointer;
+    border-radius: 60px;
+    display: inline-block;
+    width: 240px;
+    height: 105px;
+    margin-left: 16px;
+    background: none;
+    border:5px solid rgb(169, 119, 201);
+    transition: all .2s;
+    position: relative;
+    top: 58vw;
+    opacity:.8;
+}
+#sl_bl .slider-dot-control label:hover{
+    transform: scale(1.05);
+}
+#sl_bl .slider-wrapper{
+    width: 100%;
+    position: relative;
+    bottom:30%;
+    left:78%;
+    overflow: hidden;
+    border-radius: 90px;
+    transition: all .5s cubic-bezier()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="roadmap">
+        <div class="slide4" style="font-family:Roboto,Arial,sans-serif;">
+          <div class="slider-dot-control">
+              <label for=slide6 style="position: relative; top:40vw; right:-25vw;"><b>game platform</b></label>
+              <label for=slide7 style="position: relative; left:-20vw; top:55vw;"><b>developers</b></label>
+              <label for=slide8 style="position: relative; left: 20vw; top:55vw;"><b>players</b></label>
+              <label for=slide9 style="position: relative; top: 70vw; right:25vw;"><b>advertiser</b></label>
+              <div class="slider-wrapper">
+                <div class=inner>
+                    <article>
+                        <img src="попкорн.jpg" >
+                    </article>
+                    <article>
+                        <img src="камера.jpg" >
+                    </article>
+                    <article>
+                        <img src="дубляж.jpg">
+                    </article>
+                    <article>
+                        <img src="джостик.jpg">
+                    </article>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
